@@ -1,4 +1,4 @@
-# Pipeline data_processing
+# Pipeline pre_processing
 
 > *Note:* This is a `README.md` boilerplate generated using `Kedro 0.18.0`.
 

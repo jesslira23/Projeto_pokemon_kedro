@@ -8,6 +8,6 @@ raw_pokemon_dataset:
   filepath: data/01_raw/pokemon.csv
 
 
-preprocessed_a:
+pre_processed_data:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/preprocessed_a.csv
+  filepath: data/02_intermediate/pre_processed_data.csv
