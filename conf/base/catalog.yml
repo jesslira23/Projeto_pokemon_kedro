@@ -7,7 +7,6 @@ raw_pokemon_dataset:
   type: pandas.CSVDataSet
   filepath: data/01_raw/pokemon.csv
 
-
-pre_processed_data:
+pp_pokemon_dataset:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/pre_processed_data.csv
+  filepath: data/02_intermediate/pp_pokemon_dataset.csv

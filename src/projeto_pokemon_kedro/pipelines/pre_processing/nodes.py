@@ -5,7 +5,7 @@ generated using Kedro 0.18.0
 
 import pandas as pd
 
-def pre_processing(df):
+def pre_processing(df:pd.DataFrame):
     """
     Function to clean the data (drop the unused columns and drop NaN values)
 
@@ -13,6 +13,10 @@ def pre_processing(df):
         Returns: pre_processed data
 
     """
-    df = df.drop(columns=['type2'])
+    #Remove unused columns
+    df = df.drop(columns=['type2','pokedex_number'])
+    
+    #Remove null valous
     df = df.dropna()
+    
     return df

@@ -15,5 +15,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     pre_processing_pipeline = pp.create_pipeline()
 
 
-    return {"pp": pre_processing_pipeline,
-        "__default__": pre_processing_pipeline}
+    return {
+        "pp": pre_processing_pipeline,
+        "__default__": pre_processing_pipeline
+        }
