@@ -12,7 +12,7 @@ def create_pipeline(**kwargs) -> Pipeline:
 
         node(   
             func = pre_processing,
-            inputs = "raw_pokemon_dataset",
+            inputs = ["raw_pokemon_dataset", 'params:selected_generation'],
             outputs = "pp_pokemon_dataset",
             name = "pre_processed_pokemon"
         )
