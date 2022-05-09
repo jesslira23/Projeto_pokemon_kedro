@@ -10,3 +10,10 @@ raw_pokemon_dataset:
 pp_pokemon_dataset:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/pp_pokemon_dataset.csv
+
+
+##Auxiliary objects
+
+label_encoder:
+  type: pickle.PickleDataSet
+  filepath: data/05_model_input/label_encoder.pickle
