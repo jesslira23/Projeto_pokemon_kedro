@@ -11,6 +11,14 @@ pp_pokemon_dataset:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/pp_pokemon_dataset.csv
 
+encode_pokemon_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/encoded_pokemon_dataset.csv
+
+pokemon_features:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/pokemon_features.csv
+
 
 ##Auxiliary objects
 
