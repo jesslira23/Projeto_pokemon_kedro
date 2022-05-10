@@ -19,6 +19,9 @@ pokemon_features:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/pokemon_features.csv
 
+model_classifier:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/classifier.pickle
 
 ##Auxiliary objects
 

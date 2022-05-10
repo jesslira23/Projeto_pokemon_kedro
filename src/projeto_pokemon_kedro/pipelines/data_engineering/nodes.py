@@ -40,4 +40,19 @@ def create_number_of_abilities_feature(df):
         )
     )
 
+    # List columns with against variables
+    against_cols = [col for col in df if col.startswith('against')]
+
+    # Select numerical columns
+    numerical_starts_columns = [
+    'base_total', 'attack', 'defense', 'hp', 'sp_attack', 'sp_defense', 'speed', 'height_m', 'weight_kg', 'number_of_abilities'
+    ]
+
+    #Creature final column list 
+    cols_to_select = against_cols + numerical_starts_columns + ['type1']
+
+
+    #Select columns
+    df = df[cols_to_select]
+
     return df
